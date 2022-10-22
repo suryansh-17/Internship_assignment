@@ -1,0 +1,84 @@
+.logo{
+    display: inline;
+    height: 80px;
+    background-color: white;
+}
+h1{
+    font-size: 40px;
+    display: inline-block;
+}
+
+h2{
+  font-size: 30px;
+}
+
+.menu{
+    float: left;
+    width: 15%;
+    text-align: center;
+}
+
+.menu a{
+    background-color: darkolivegreen;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+
+}
+
+.main{
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.right{
+    float: left;
+    width: 20%;
+    padding: 15px;
+    text-align: center;
+}
+
+.right a{
+    font-size: 25px;
+    background-color: cadetblue;
+    padding: 6px;
+    height: 35px;
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    color: black;
+
+}
+.book-avilable{
+    background-color: darkolivegreen;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+    line-height: 2;
+}
+
+.login{
+  text-align: center;
+  color: blue;
+  text-decoration: underline;
+}
+
+
+img{
+  display: inline-block;
+  height: 200px;
+}
+
+/* media queries */
+
+@media only screen and (max-width:620px){
+    .menu,.main,.right{
+        width:100%;
+    }
+}

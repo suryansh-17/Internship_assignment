@@ -1,0 +1,72 @@
+body{
+  margin: 0;
+  font-family: 'Roboto', serif;
+}
+.qualifications{
+  background-color: #DFF6FF;
+  margin:0;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+h2{
+  text-align: center;
+  margin: 0;
+  font-size: 40px;
+  color: #66BFBF;
+  text-decoration: underline;
+}
+
+table{
+  background-color: white;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding-left: 100px;
+  padding-right: 50px;
+}
+
+.col1{
+  padding-left: 150px
+}
+
+.skills{
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.skill-list{
+  font-size: 20px;
+  margin-left:450px;
+  line-height: 2;
+  color: #0033CC;
+}
+
+.pagination {
+  background-color:#66BFBF;
+  margin-left: 32%;
+  display: inline-block;
+  align-items: center;
+  padding: 10px 30px;
+  margin-bottom: 30px;
+}
+
+.pagination a {
+  color: black;
+  float: none;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: red;
+}
+
+.pagination:active{
+  color: blue;
+}

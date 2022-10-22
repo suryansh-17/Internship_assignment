@@ -1,0 +1,46 @@
+<html>
+    <head>
+        Focus on text box
+    </head>
+
+    <body>
+        <h1 id="heading1" ondblclick="fun()">Events</h1>
+        <input type="text" id="input" onfocus="focusevent()">
+        <button id="btn"> click </button>
+        <p id="p1">
+            weguebwownbwbwuobwip
+        </p>
+        <p id="p2">
+            qeoifbqnevioqegbveq
+        </p>
+
+        <script>
+            function focusevent(){
+                document.getElementById("input").style.background="aqua";
+            }
+
+            function fun(){
+                document.getElementById("heading1").innerHTML="welcome to js ";
+                document.getElementById("input").value="wht is up";
+            }
+
+            function f1(){
+                alert('welcome to js button click');
+            }
+
+            function f2(){
+                document.getElementById("p1").innerHTML="mouse over event";
+            }
+            function f3(){
+                document.getElementById("p2").innerHTML="mouse out event";
+            }
+
+            var mybtn=document.getElementById("btn");
+
+            mybtn.addEventListener("click",f1);
+            mybtn.addEventListener("mouseover",f2);
+            mybtn.addEventListener("mouseout",f3);
+
+        </script>
+    </body>
+</html>

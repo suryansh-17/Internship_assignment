@@ -1,0 +1,31 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport"content ="width=device-width,initial-scale=1.0">
+    <title>Purchase Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pandey Stores</h1>
+    <div class="container">
+        <div id="data">
+            <p> Enter Item:<input type="text" id="name" placeholder="Enter Item Name"></p>
+            <p>Enter Code:<input type="number" id="code" placeholder="Enter Item Code"></p>
+            <p>Enter Price:<input type="number" id="price" placeholder="Enter Item Price"></p>
+            <p> Enter Quantity:<input type="number" id="quantity" placeholder="Enter Item Quantity"></p>
+            <button id="add">Add</button>
+            <button id="calculate">Calculate</button>
+        </div>
+        <p>
+        <table border="2" id="mytab">
+            <tr class="table-content">
+                <th>Item Name</th>
+                <th>Item Code</th>
+                <th>Item Price</th>
+                <th>Item Quantity</th>
+            </tr>
+        </table>
+    </p>
+        <p id="info"></p>
+    </div>
+    <script src="table.js"></script>
+    </body>
